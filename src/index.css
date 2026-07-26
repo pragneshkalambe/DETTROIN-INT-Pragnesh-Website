@@ -38,3 +38,6 @@ button{
 section{
   padding:80px 8%;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
