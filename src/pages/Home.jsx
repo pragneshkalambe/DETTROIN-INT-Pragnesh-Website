@@ -11,13 +11,16 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Academics/>
-    <About/>
-    <Gallery/>
-    <News/>
-    <Footer/>
+      <Navbar />
+
+      <main className="pt-24">
+        <Hero />
+        <About />
+        <Academics />
+        <Gallery />
+        <News />
+        <Footer />
+      </main>
     </>
   )
 }
