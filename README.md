@@ -1,29 +1,34 @@
-# Vasant Valley School Website 
-
-```
-
-```
 # Dettroin Frontend Internship Assignment
 
 ## Candidate Details
 
 **Full Name:** Pragnesh Kalambe
 
-**Intern ID:** <YOUR INTERN ID>
+**Intern ID:** Not Provided
 
 **Email Address:** kalambepragnesh@gmail.com
 
 **GitHub Username:** pragneshkalambe
 
-**Selected Website:** Vasant Valley School , Link of actual school site (https://www.vasantvalley.org/)
+**Selected Website:** Vasant Valley School
+
+Original Website: https://www.vasantvalley.org/
 
 ---
 
-## Live Demo
+## Live link of Vercel deployment
 
-**Vercel Deployment:** <Paste your Vercel URL here after deployment>
+**Live Demo:** https://dettroin-int-pragnesh-website-vasan.vercel.app/
 
 ---
+
+## Working Demo Video
+
+MP4:
+https://drive.google.com/file/d/1WYETL62T5PKl3oribMHMTaCEfGYIXfR0/view?usp=sharing
+
+MKV (Backup):
+https://drive.google.com/file/d/1QTz2tEaHjeqt0uH7mzhYTNZBWns3toe-/view?usp=sharing
 
 ## Technologies Used
 
