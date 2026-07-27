@@ -79,27 +79,45 @@ const Navbar = () => {
         {/* Sidebar Links */}
         <ul className="mt-8 flex flex-col gap-7 px-8 text-lg font-medium text-gray-700">
           <li className="cursor-pointer hover:text-red-700 transition">
+            <a href="#hero">
+
             Home
+            </a>
           </li>
 
           <li className="cursor-pointer hover:text-red-700 transition">
+            <a href="#about">
+              
             About
+            </a>
           </li>
 
           <li className="cursor-pointer hover:text-red-700 transition">
+            <a href="#academics">
+              
             Academics
+            </a>
           </li>
 
           <li className="cursor-pointer hover:text-red-700 transition">
-            Admissions
+            <a href="#news">
+              
+            News
+            </a>
           </li>
 
           <li className="cursor-pointer hover:text-red-700 transition">
+            <a href="#gallery">
+              
             Gallery
+            </a>
           </li>
 
           <li className="cursor-pointer hover:text-red-700 transition">
+            <a href="#footer">
+              
             Contact
+            </a>
           </li>
         </ul>
 
