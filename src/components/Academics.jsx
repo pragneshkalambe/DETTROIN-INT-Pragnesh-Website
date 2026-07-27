@@ -31,7 +31,7 @@ const Academics = () => {
   return (
     <section
       id="academics"
-      className="py-24 lg:py-28 bg-gray-50"
+      className=" bg-gray-50"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-10">
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -7,22 +7,36 @@ import Gallery from "../components/Gallery";
 import News from "../components/News";
 import Footer from "../components/Footer";
 
-
 function Home() {
   return (
     <>
       <Navbar />
 
-      <main className="pt-24">
+      <main style={{ paddingTop: "90px" }}>
+
         <Hero />
-        <About />
-        <Academics />
-        <Gallery />
-        <News />
-        <Footer />
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: "50px",
+            marginTop: "30px",
+          }}
+        >
+          <About />
+          <Academics />
+          <Gallery />
+          <News />
+        </div>
+
+        <div style={{ marginTop: "30px" }}>
+          <Footer />
+        </div>
+
       </main>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -104,8 +104,10 @@ const Navbar = () => {
       >
 
         {/* Sidebar Header */}
-        <div className="flex items-center justify-between px-6 py-5 border-b">
-
+        <div
+          className="flex items-center justify-between py-5 border-b"
+          style={{ paddingLeft: "32px", paddingRight: "24px" }}
+        >
           <a href="#hero" onClick={() => setIsOpen(false)}>
             <img
               src={logo}
@@ -124,8 +126,10 @@ const Navbar = () => {
         </div>
 
         {/* Sidebar Links */}
-        <ul className="mt-10 pl-10 pr-6 space-y-7 text-lg font-medium text-gray-700">
-
+        <ul
+          className="mt-10 flex flex-col gap-7 text-lg font-medium text-gray-700"
+          style={{ paddingLeft: "40px", paddingRight: "24px" }}
+        >
           <li>
             <a href="#hero" onClick={() => setIsOpen(false)} className="hover:text-red-700 transition">
               Home

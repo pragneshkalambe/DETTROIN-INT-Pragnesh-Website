@@ -25,6 +25,7 @@ const Hero = () => {
     <section
       id="hero"
       className="w-full px-0"
+      // style={{ marginBottom: "40px" }}
     >
       <div className="relative w-full h-[75vh] md:h-[85vh] lg:h-screen overflow-hidden rounded-3xl lg:rounded-none">
 
