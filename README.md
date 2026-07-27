@@ -1,16 +1,120 @@
-# React + Vite
+# Vasant Valley School Website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
 
-Currently, two official plugins are available:
+```
+# Dettroin Frontend Internship Assignment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Candidate Details
 
-## React Compiler
+**Full Name:** Pragnesh Kalambe
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Intern ID:** <YOUR INTERN ID>
 
-## Expanding the ESLint configuration
+**Email Address:** kalambepragnesh@gmail.com
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**GitHub Username:** pragneshkalambe
+
+**Selected Website:** Vasant Valley School , Link of actual school site (https://www.vasantvalley.org/)
+
+---
+
+## Live Demo
+
+**Vercel Deployment:** <Paste your Vercel URL here after deployment>
+
+---
+
+## Technologies Used
+
+- React.js
+- Vite
+- Tailwind CSS v4
+- React Icons
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## Key Improvements Made
+
+- Developed a fully responsive user interface for desktop, tablet, and mobile devices.
+- Built a responsive navigation bar with a mobile sidebar menu.
+- Implemented a Hero section featuring an automatic image slider.
+- Designed a modern About Us section with responsive layout and imagery.
+- Created an Academics section showcasing school facilities and assessment methodology.
+- Added a responsive Gallery section with interactive hover effects.
+- Designed a Latest News section using reusable card components.
+- Developed a responsive Footer with navigation links and contact information.
+- Implemented smooth scrolling navigation between sections.
+- Improved spacing, typography, and overall UI consistency across different screen sizes.
+- Organized the project into reusable React components for maintainability.
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/pragneshkalambe/DETTROIN-INT-Pragnesh-Website.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build the project
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Project Structure
+
+```
+src/
+│
+├── assets/
+│   ├── images/
+│   └── logos/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Academics.jsx
+│   ├── Gallery.jsx
+│   ├── News.jsx
+│   └── Footer.jsx
+│
+├── pages/
+│   └── Home.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Author
+
+**Pragnesh Kalambe**
