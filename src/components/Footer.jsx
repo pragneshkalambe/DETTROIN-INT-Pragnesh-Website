@@ -12,8 +12,13 @@ const Footer = () => {
   return (
     <footer id="footer" className="py-24 lg:py-28 bg-[#111827] text-gray-300">
 
-      <div className="max-w-7xl mx-auto px-6 md:px-10 py-16">
-
+      <div
+        className="max-w-7xl mx-auto py-16"
+        style={{
+          paddingLeft: "45px",
+          paddingRight: "45px",
+        }}
+      >
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 
           {/* Column 1 */}

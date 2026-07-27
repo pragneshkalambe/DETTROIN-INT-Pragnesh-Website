@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  let heroImages = [
+  const heroImages = [
     hero, hero2, hero3, hero4
   ];
 
@@ -25,7 +25,7 @@ const Hero = () => {
     <section
       id="hero"
       className="w-full px-0"
-      // style={{ marginBottom: "40px" }}
+    // style={{ marginBottom: "40px" }}
     >
       <div className="relative w-full h-[75vh] md:h-[85vh] lg:h-screen overflow-hidden rounded-3xl lg:rounded-none">
 
@@ -50,8 +50,13 @@ const Hero = () => {
 
         {/* Hero Content */}
         <div className="absolute inset-0 flex items-center">
-          <div className="px-6 md:px-12 lg:px-16 max-w-2xl text-white">
-
+          <div
+            className="max-w-2xl text-white"
+            style={{
+              paddingLeft: "45px",
+              paddingRight: "30px",
+            }}
+          >
             <p className="text-2xl md:text-3xl mb-2">
               Welcome to
             </p>

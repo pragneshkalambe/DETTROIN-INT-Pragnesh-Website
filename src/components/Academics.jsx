@@ -33,11 +33,18 @@ const Academics = () => {
       id="academics"
       className=" bg-gray-50"
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-10">
-
+      <div
+        className="max-w-7xl mx-auto"
+        style={{
+          paddingLeft: "45px",
+          paddingRight: "45px",
+        }}
+      >
         {/* Heading */}
-        <div className="text-center max-w-3xl mx-auto">
+        <div
+          className="text-center max-w-3xl mx-auto"
 
+        >
           <p className="uppercase tracking-[4px] text-red-700 font-semibold">
             Academics
           </p>
@@ -74,8 +81,7 @@ const Academics = () => {
 
               </div>
 
-              <div className="p-6">
-
+              <div className="p-7">
                 <h3 className="text-2xl font-semibold text-gray-900">
                   {item.title}
                 </h3>

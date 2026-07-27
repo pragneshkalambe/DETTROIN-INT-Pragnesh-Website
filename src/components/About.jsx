@@ -6,8 +6,13 @@ const About = () => {
       id="about"
       className=" bg-white"
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-8">
-
+      <div
+        className="max-w-7xl mx-auto"
+        style={{
+          paddingLeft: "45px",
+          paddingRight: "45px",
+        }}
+      >
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
           {/* Left Side */}
